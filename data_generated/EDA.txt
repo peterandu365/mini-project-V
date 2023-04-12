@@ -1,0 +1,72 @@
+
+
+Shape of the data: 
+(404290, 6)
+
+
+
+First 5 rows of the data: 
+
+   id  qid1  qid2                                          question1   
+0   0     1     2  What is the step by step guide to invest in sh...  \
+1   1     3     4  What is the story of Kohinoor (Koh-i-Noor) Dia...   
+2   2     5     6  How can I increase the speed of my internet co...   
+3   3     7     8  Why am I mentally very lonely? How can I solve...   
+4   4     9    10  Which one dissolve in water quikly sugar, salt...   
+
+                                           question2  is_duplicate  
+0  What is the step by step guide to invest in sh...             0  
+1  What would happen if the Indian government sto...             0  
+2  How can Internet speed be increased by hacking...             0  
+3  Find the remainder when [math]23^{24}[/math] i...             0  
+4            Which fish would survive in salt water?             0  
+
+
+
+Last 5 rows of the data: 
+
+            id    qid1    qid2   
+404285  404285  433578  379845  \
+404286  404286   18840  155606   
+404287  404287  537928  537929   
+404288  404288  537930  537931   
+404289  404289  537932  537933   
+
+                                                question1   
+404285  How many keywords are there in the Racket prog...  \
+404286          Do you believe there is life after death?   
+404287                                  What is one coin?   
+404288  What is the approx annual cost of living while...   
+404289              What is like to have sex with cousin?   
+
+                                                question2  is_duplicate  
+404285  How many keywords are there in PERL Programmin...             0  
+404286         Is it true that there is life after death?             1  
+404287                                  What's this coin?             0  
+404288  I am having little hairfall problem but I want...             0  
+404289      What is it like to have sex with your cousin?             0  
+
+
+
+Number of missing values in each column: 
+
+id              0
+qid1            0
+qid2            0
+question1       1
+question2       2
+is_duplicate    0
+dtype: int64
+
+
+
+Number of unique values in each column: 
+
+id              404290
+qid1            290654
+qid2            299364
+question1       290456
+question2       299174
+is_duplicate         2
+dtype: int64
+
