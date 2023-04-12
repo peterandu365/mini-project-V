@@ -83,7 +83,7 @@ Used Hyperparameters:
 - Best epoch step: 14
 - Result: The iteration was interrupted due to the time limit. The accuracy was 0.80. F1 score, precision, and recall were not saved due to the interruption. They will be updated in the future.
 
-  <img src="history_LSTM_batch_size_6144_v3.png" alt="image" width="100%" style="max-width: 900px;">
+  <img src="images/history_LSTM_batch_size_6144_v3.png" alt="image" width="100%" style="max-width: 400px;">
 
 
 
